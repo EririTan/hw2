@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>哔哩哔哩</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-size: 20px;
+            color: #191a1b;
+        }
+        a {
+            text-decoration: none;
+        }
+        p {
+            text-align: center;
+            color: #2d54a3;
+        }
+        #header {
+            height: 10vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #main {
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        body {
+            background-image:linear-gradient(to right, #f9fcff,#bbd8f9);
+        }
+        #sn {
+            background-color: #f6f8fa;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+        #shell {
+            display: flex;
+            justify-content: center;
+        }
+        #button {
+            background-color:#9dcbff;
+            width: 170px;
+            height: 65px;
+            text-align: center;
+            line-height: 65px;
+            transition: .3s;
+            cursor: pointer;
+        }
+        #button:hover {
+            background-color: #9dcbff;
+        }
+        #button li:hover {
+            background-color:#9dcbff;
+        }
+        #button ul li {
+            height: 0;
+            transition: .2s;
+            opacity: 0;
+            transform: translateY(-65px);
+            background-color:lightskyblue;
+        }
+        #button:hover li {
+            height: 65px;
+            opacity: 1;
+            transform: translateY(0);
+        }
+        #sb {
+            height: 20vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        table tr:nth-child(2){
+            background-color: #378bec;        
+        }
+        table tr:nth-child(1){
+            background-color:#868d95;
+        }
+        table tr:nth-child(3){
+            background-color:#96d021;
+        }
+        table tr:nth-child(4){
+            background-color:#e3ff9d;
+        }
+        table tr:nth-child(5){
+            background-color:#ff9d9d;
+        }
+        tr th:nth-child(1){
+            color: #9dcbff;
+        }
+        #footer {
+            background-color:#9dcbff;
+            color:white;
+            clear:both;
+            text-align:center;
+            padding:5px;	 	 
+}	 	 
+}
+    </style>
+</head>
+
+<body>
+    <h1 id="sn">bilibili</h1>
+    <div id="header">
+        <ul id="shell">
+        <li id="button">
+            <span>首页</span>
+            <ul>
+                <li><a href="1.html">番剧</a></li>
+                <li><a href="1.html">直播</a></li>
+                <li><a href="1.html">游戏中心</a></li>
+                <li><a href="1.html">漫画</a></li>
+                <li><a href="1.html">赛事</a></li>
+            </ul>
+        </li>
+        <li id="button">
+            <span>个人中心</span>
+            <ul>
+                <li><a href="1.html">大会员</a></li>
+                <li><a href="1.html">消息</a></li>
+                <li><a href="1.html">动态</a></li>
+                <li><a href="1.html">收藏</a></li>
+                <li><a href="1.html">历史</a></li>
+                <li><a href="1.html">创作中心</a></li>
+            </ul>
+        </li>
+        <li id="button">
+            <span>下载客户端</span>
+            <ul>
+                <li><a href="1.html">ios端</a></li>
+                <li><a href="1.html">PC端</a></li>
+                <li><a href="1.html">Android端</a></li>
+            </ul>
+    </div>
+    <div id="main">
+     <table border="1">
+        <tr>
+            <th colspan="6">番剧分类</th>
+        </tr>
+        <tr>
+            <th>原创</th>
+            <th>小说改</th>
+            <th>特摄</th>
+            <th>热血</th>
+            <th>漫画改</th>
+            <th>游戏改</th>
+        </tr>
+        <tr>
+            <td rowspan="3">热门</td>
+            <td align="center">间谍过家家</td>
+            <td align="center">莉可丽丝</td>
+            <td align="center">五等分的新娘2</td>
+            <td align="center">孤独摇滚</td>
+            <td align="center">pop子2</td>
+        </tr>
+        <tr>
+            <td align="center">海贼王</td>
+            <td align="center">火影忍者</td>
+                <td align="center">夏目友人帐</td>
+                <td align="center">鬼灭之刃</td>
+                <td align="center">刀剑神域</td>
+            </tr>
+            <tr>
+                <td align="center">名侦探柯南</td>
+                <td align="center">机动战士高达</td>
+                <td align="center">一拳超人</td>
+                <td align="center">东京喰种</td>
+                <td align="center">你的名字</td>
+            </tr>
+     </table>
+    </div>
+
+    <div id="sb">
+     <table border="8">
+        <tr>
+            <td><img src="images/间谍过家家.png" width="200"></td>
+            <td><img src="images/间谍过家家.png" width="200"></td>
+        </tr>
+        <tr>
+            <td align="center">间谍过家家</td>
+            <td align="center">间谍过家家</td>
+        </tr>
+        <tr>
+            <td><img src="images/五等分的新娘.jpg" width="200"</td>
+            <td><img src="images/五等分的新娘.jpg" width="200"</td>
+        </tr>
+        <tr>
+            <td align="center">五等分的新娘</td>
+            <td align="center">五等分的新娘</td>
+        </tr>
+     </table>
+    </div>
+</body>
+
+</html>
